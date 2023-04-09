@@ -1,0 +1,8 @@
+f222 for realistic peoples
+redShift: for games, 3d model like pikachu
+Anything V3 for high quality anime images
+midjournay: for best result like aesthethic results
+https://stable-diffusion-art.com/models/#v2_models web for diff models results
+
+revAnimated models required VAE https://huggingface.co/stabilityai/sd-vae-ft-mse-original/tree/main and put it in models > VAE 
+and go to settings > stable diffusion and select VAE in SD VAE option for high scale result otherwise the resutls will be a bit blurry
