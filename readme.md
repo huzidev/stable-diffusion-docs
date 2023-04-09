@@ -1,3 +1,3 @@
 # Stable-Diffusion Documents
 
-Documentaion of Stable-Diffusion to get best quality result
+Documentation of Stable-Diffusion to get best quality result
