@@ -1,3 +1,6 @@
-ORIGINAL if we wanted the colors of paint areas to be same
-LATENT NOISE if color have to be diff on each iterations
-FILL for using other colors from images parts
+After painting mask
+
+- use ORIGINAL for colors of the masked area to remain the same.
+- use LATENT NOISE for color of the masked area to be different.
+- use FILL for picking the color from the sides of masked area.
+EX: if area around the mask is blue then after itertation the new color on the masked area will be something related to blue.
