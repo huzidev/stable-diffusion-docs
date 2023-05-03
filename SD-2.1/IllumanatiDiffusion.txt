@@ -1,0 +1,22 @@
+Download embeddings form the links:
+- https://civitai.com/models/13515/nfixer-for-illuminati-diffusion-v11
+- https://civitai.com/models/13518/nartfixer-for-illuminati-diffusion-v11
+- https://civitai.com/models/13519/nrealfixer-for-illuminati-diffusion-v11
+
+paste them in embeddings folder
+
+Add these in negative prompts to get realistic dark images
+NREALFIXER, NFIXER, NARTFIXER
+
+Ex: 
+- knight standing inside a gothic church, bloodborne
+- Negative prompt: NREALFIXER, NFIXER, NFIXER, cgi, fake, render, painting, illustration
+- Steps: 90, 
+- Sampler: Euler, 
+- CFG scale: 10, 
+- Seed: 3457267279, 
+- Size: 768x768, 
+
+Hr fix enabled
+- Denoising strength: 0.3, Clip skip: 2, Hires upscale: 1.35, Hires upscaler: SwinIR_4x
+

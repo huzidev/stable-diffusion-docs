@@ -1,0 +1,13 @@
+Models trained on 2.1 needs a yaml file 
+
+Procedure
+- https://github.com/Stability-AI/stablediffusion/tree/main/configs/stable-diffusion
+- v2-inference-v.yaml for 2.1 768 model
+- v2-inference.yaml for 2.1 512 model
+- just download this single time and any model trained on 2.1 model can use them just rename that yaml file exact as of that model's name
+
+Ex: 
+- illuminatiDiffusionV2.1.safetensors is trained on 2.1 model so the yaml file will be illuminatiDiffusionV2.1.yaml
+- realismEngine_v2.1.safetensors is trained on 2.1 model so the yaml file will be realismEngine_v2.1.yaml
+- make sure to put the yaml file at the same folder as of models.
+- models > Stable-Diffusion
